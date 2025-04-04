@@ -17,35 +17,43 @@
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="education.html">Education</a></li> 
         </ul>
     </nav>
 
-  
-        <section id="contact">
-            
-            <h3>Send me a message:</h3>
-            <form action="mailto:nyandetalatu@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required> <br> <br
-        
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required><br><br>
-        
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="2"  required></textarea><br><br>
-        
+    <section id="contact">
+        <h3>Send Me A Message</h3>
+        <form id="contact-form" action="mailto:nyandetalatu@gmail.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Write your message here..."></textarea>
+            </div>
+            <div class="form-group">
                 <button type="submit">Send Message</button>
-                </form>
-                <br><br>
-                <h3>Contact</h3> <br>
-            <p>Email: <a href="mailto:nyandetalatu@gmail.com">nyandetalatu@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/talatunyande" target="_blank">github.com/talatunyande/a></p>
-             <p>Linkedin:v<a href= "https://www.linkedin.com/in/talatu-nyande-2631082aa/" target="_blank">linkedin.com/Talatu Nyande</a></p>
+            </div>
+            <div id="error-message"></div>
+        </form>
 
-           
-        </section>
-        
+        <h3>Alternatively, you can reach me at:</h3>
+        <p>Email: <a href="mailto:nyandetalatu@gmail.com">nyandetalatu@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/talatunyande" target="_blank">github.com/talatunyande</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/talatu-nyande-2631082aa/" target="_blank">linkedin.com/Talatu Nyande</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Talatu Nyande | All Rights Reserved</p>
+    </footer>
 
     <script src="portfolio.js"></script>
 </body>
 </html>
+
+
